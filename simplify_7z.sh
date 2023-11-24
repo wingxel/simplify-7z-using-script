@@ -3,7 +3,7 @@
 if [ $# -ne 2 ];
 then
 	echo "Ivalid arguments"
-	echo "Usage: protectData destination.7z sourceFolder"
+	echo "Usage: ./simplify_7z.sh destination.7z source-folder-or-file"
 	exit 1
 fi
 
